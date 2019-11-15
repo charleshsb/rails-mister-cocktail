@@ -3,8 +3,7 @@
   <%= simple_form_for [@cocktail] do |f| %>
     <%= f.input :name %>
     <%= f.input :photo, as: :file %>
-    <%= f.submit class: "btn btn-dark" %>
+    <%= f.submit class: "btn btn-light" %>
   <% end %>
   <br>
-  <%= link_to "Back to list", cocktails_path %>
 </div>
